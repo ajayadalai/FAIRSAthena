@@ -1,0 +1,19 @@
+﻿<Window x:Class="ANDE.FAIRS.Athena.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ANDE.FAIRS.Athena"
+        mc:Ignorable="d"
+        Icon="Transparent.ico"
+        ResizeMode="CanResize" WindowStartupLocation="CenterScreen" MinHeight="425" MinWidth="450"
+        d:DesignHeight="600" d:DesignWidth="900" Height="600" Width="900" Background="#8246AF" >
+
+    <DockPanel VirtualizingStackPanel.IsVirtualizing="True" VirtualizingStackPanel.VirtualizationMode="Recycling">
+        <Frame x:Name="mainFrame_" Template="{DynamicResource FrameTemplate}"/>
+    </DockPanel>
+
+
+
+</Window>
+
